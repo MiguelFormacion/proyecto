@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}	
+
+@font-face{
+    font-family:'fivosans';
+    src:url("../fonts/FivoSans/FivoSans-Light.otf" );
+}
+
+@font-face{
+    font-family:'fivosansBlack';
+    src:url("../fonts/FivoSans/FivoSans-Black.otf" );
+}
+
+body {
+    font-family:  "fivosans", Verdana, sans-serif;
+    width: 90%;
+    background: whitesmoke;
+    margin: auto;
+}
+
+header {
+    background: whitesmoke;
+    color: #130026;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 15px auto 0px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 18px;
+    text-align: center;
+    margin: auto auto 0px auto;
+    font-family: "fivosansBlack";
+    font-size: 21px;
+}
+
+ul {
+    margin: 15px auto 0px 0px;
+    color:whitesmoke;
+    width: 88%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+li {
+    background: #130026;
+    list-style: none;
+    border: 1px solid whitesmoke;
+    width: 99%;
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    font-size: 12px;
+}
+
+a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+main {
+    background: rgb(218, 217, 217);
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+}
+
+aside {
+    background: #130026;
+    color:whitesmoke;
+    height: 500px;
+    width: 300px;
+
+}
+
+.foto {
+    margin: auto;
+}
+
+#infoGeneral {
+    text-align: center;
+    margin: 40px auto auto auto;
+
+}
+
+.datosPersonales {
+    font-size: 13px;
+    margin: 50px auto auto 20px;
+}
+
+.nombre {
+    margin: 50px auto 50px 50px;
+}
+
+#titulo {
+    font-size: 15px;
+}
+
+#nombre {
+    font-size: 30px;
+    font-family: "fivosansBlack";
+    letter-spacing: 3px;
+}
+
+.descripcion {
+    margin: 50px 50px 150px 50px;
+
+}
+
+#texto {
+    margin: 30px auto auto auto;
+    line-height: 25px;
+}
